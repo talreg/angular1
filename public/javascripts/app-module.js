@@ -6,7 +6,7 @@
 if (!AppControllers) {
     var AppControllers = {};
 }
-var testApp = angular.module("testApp", ['ngRoute']);
+var testApp = angular.module("testApp", ['ngRoute','angular-loading-bar']);
 testApp.controller(AppControllers);
 testApp.config(['$routeProvider', function ($routeProvider) {
         $routeProvider
