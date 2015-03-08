@@ -10,12 +10,14 @@ router.get('/movies', function (req, res, next) {
     res.render('movies');
 });
 router.get('/list', function (req, res, next) {
-    var movieList={data : [
-        {name: 'Arnold Schwarzenegger', movie: 'Terminator 2: Judgment Day'},
-        {name: 'Brad Pitt', movie: 'World War Z'},
-        {name: 'Noomi Rapace', movie: 'Prometheus'},
-        {name: 'Haley Joel Osment', movie: 'Secondhand Lions'}
-    ]};
-    res.send(JSON.stringify(movieList));
+    var movieList = {data: [
+            {name: 'Arnold Schwarzenegger', movie: 'Terminator 2: Judgment Day'},
+            {name: 'Brad Pitt', movie: 'World War Z'},
+            {name: 'Noomi Rapace', movie: 'Prometheus'},
+            {name: 'Haley Joel Osment', movie: 'Secondhand Lions'}
+        ]};
+    setTimeout(function () {
+        res.send(JSON.stringify(movieList));
+    }, 1300);
 });
 module.exports = router;
