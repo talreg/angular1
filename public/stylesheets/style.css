@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.connecting1 {
+    font-weight:  bold;
+    font-family: cursive;
+    font-size: large;
+    color: aqua;
+}
+
+.data-name {
+    font-family: cursive;
+    font-size: medium;
+    font: cursive;
+    background: bisque
+}
+
+
+.subject-name {
+    font-family: "Arial";
+    font-size: 20px;
+    font-style: oblique;
+}
