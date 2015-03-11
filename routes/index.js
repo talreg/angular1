@@ -18,6 +18,6 @@ router.get('/list', function (req, res, next) {
         ]};
     setTimeout(function () {
         res.send(JSON.stringify(movieList));
-    }, 1300);
+    }, 0300);
 });
 module.exports = router;
