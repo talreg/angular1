@@ -16,6 +16,7 @@ router.get('/list', function (req, res, next) {
             {name: 'Noomi Rapace', movie: 'Prometheus'},
             {name: 'Haley Joel Osment', movie: 'Secondhand Lions'}
         ]};
+    //simulate database transaction
     setTimeout(function () {
         res.send(JSON.stringify(movieList));
     }, 0300);

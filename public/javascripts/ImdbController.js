@@ -7,7 +7,7 @@ if (!AppControllers) {
     var AppControllers = {};
 }
 AppControllers.ImdbOnlineController = function ($scope, $http) {
-    $http.get('/list').success(function (data) {
+    $http.get('list').success(function (data) {
         $scope.data = data.data;
     });
 };
