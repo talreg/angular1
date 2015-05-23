@@ -14,7 +14,8 @@ router.get('/list', function (req, res, next) {
             {name: 'Arnold Schwarzenegger', movie: 'Terminator 2: Judgment Day'},
             {name: 'Brad Pitt', movie: 'World War Z'},
             {name: 'Noomi Rapace', movie: 'Prometheus'},
-            {name: 'Haley Joel Osment', movie: 'Secondhand Lions'}
+            {name: 'Haley Joel Osment', movie: 'Secondhand Lions'},
+            {name: 'Johnny Depp',movie:'Public Enemies '}
         ]};
     //simulate database transaction
     setTimeout(function () {
