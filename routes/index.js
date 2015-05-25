@@ -15,9 +15,9 @@ router.get('/list', function (req, res, next) {
             {name: 'Brad Pitt', movie: 'World War Z'},
             {name: 'Noomi Rapace', movie: 'Prometheus'},
             {name: 'Haley Joel Osment', movie: 'Secondhand Lions'},
-            {name: 'Johnny Depp',movie:'Public Enemies '}
-            {name: 'Johnny Depp',movie:'Public Enemies1 '}
-            {name: 'Johnny zozobra',movie:'Public Enemies 2'}
+            {name: 'Johnny Depp',movie:'Public Enemies '},
+            {name: 'Johnny Depp',movie:'Public Enemies1 '},
+            {name: 'Johnny zozobra',movie:'Public Enemies 2'},
             {name: 'Johnny mesting',movie:'Public Enemies 3'}
         ]};
     //simulate database transaction
