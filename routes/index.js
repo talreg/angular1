@@ -10,15 +10,13 @@ router.get('/movies', function (req, res, next) {
     res.render('movies');
 });
 router.get('/list', function (req, res, next) {
+    var env_data=movie:process.env.NODE_ENV|"unknown";
     var movieList = {data: [
             {name: 'Arnold Schwarzenegger', movie: 'Terminator 2: Judgment Day'},
             {name: 'Brad Pitt', movie: 'World War Z'},
             {name: 'Noomi Rapace', movie: 'Prometheus'},
             {name: 'Haley Joel Osment', movie: 'Secondhand Lions'},
-            {name: 'Johnny Depp',movie:'Public Enemies '},
-            {name: 'Johnny Depp',movie:'Public Enemies1 '},
-            {name: 'Johnny zozobra',movie:'Public Enemies 2'},
-            {name: 'Johnny mesting',movie:'Public Enemies 3'}
+            {name:'system variable',env_data}
         ]};
     //simulate database transaction
     setTimeout(function () {
