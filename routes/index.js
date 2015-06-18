@@ -16,6 +16,7 @@ router.get('/list', function (req, res, next) {
             {name: 'Brad Pitt', movie: 'World War Z'},
             {name: 'Noomi Rapace', movie: 'Prometheus'},
             {name: 'Haley Joel Osment', movie: 'Secondhand Lions'},
+            {name: 'Juda Barkan', movie: '1+0.5 charlie'},
             {name:'system variable',movie:env_data}
         ]};
     //simulate database transaction
