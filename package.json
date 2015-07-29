@@ -10,7 +10,7 @@
   ],
   "author": "tal",
   "scripts": {
-    "start": "node app.js"
+    "start": "node bin/www"
   },
   "contributors": [],
   "dependencies": {
